@@ -1,0 +1,34 @@
+@media  screen and (max-width:991.98px) {
+    .bg_dark_md{
+        background-color: var(--bs-secondary-color);
+    }
+    header::before{
+        width: 30% !important;
+        height: 46%;
+        right: 70%;
+        top: 0%;
+    }
+    header::after{
+        display: none;
+    }
+}
+@media screen and(max-width:600.98px) {
+    .title_main_header{
+        font-size: 2.5rem;
+    }
+    .text_time_hot_bids{
+        width: 63px;
+        height: 22px;
+        font-size: 0.8rem;
+    }
+}
+@media screen and (max-width:600.98px) {
+    .box_property{
+        display: none;
+    }
+}
+@media screen and(max-width:700px) {
+    .section_newsletter{
+        width: 1rem;
+    }
+}

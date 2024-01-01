@@ -1,0 +1,19 @@
+ul{
+    list-style: none;
+}
+footer{
+    background-color: #091028;
+    border: 1px solid rgba(255, 255, 255, 0.00);
+}
+.Ellipse_4{
+    background: radial-gradient(62.37% 62.37% at 50% 50%, rgba(8, 52, 164, 0.2) 21.7%, rgba(7, 15, 28, 0) 100%);
+    width: 615px;
+    height: 584px;
+    top: -11%;
+    right: -12%;
+    filter: blur(50px);
+    -webkit-filter: blur(50px);
+}
+body{
+    padding-bottom: 0 !important;
+}

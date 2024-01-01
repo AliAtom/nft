@@ -1,0 +1,24 @@
+@font-face {
+    font-family: kalameh;
+    font-style:normal ;
+    font-weight: 900;
+    src: url(../font/WebFonts/_Woff/KalamehWeb-Black.woff) format('woff');
+}
+@font-face {
+    font-family: kalameh;
+    font-style:normal ;
+    font-weight: bold;
+    src: url(../font/WebFonts/_Woff/KalamehWeb-Bold.woff) format('woff');
+}
+@font-face {
+    font-family: kalameh;
+    font-style:normal ;
+    font-weight: normal;
+    src: url(../font/WebFonts/_Woff/KalamehWeb-Regular.woff) format('woff');
+}
+@font-face {
+    font-family: Gilroy;
+    font-style:normal ;
+    font-weight: bold;
+    src: url(../font/WebFonts/_Woff/Gilroy-Bold.woff) format('woff');
+}

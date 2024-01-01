@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --color_07101D:#07101D;
+    --color_FF3C00:#FF3C00;
+}
+body{
+    font-family: kalameh;
+    background-color: var(--color_07101D);
+}
+
+#text{ 
+     background-color: var(--color_FF3C00); 
+ }
+.border_FF3C00{ 
+     border-color: var(--color_FF3C00) !important; 
+ }
+a{
+    text-decoration: none;
+}
+#navbar-li{
+    margin: 0 auto;
+    margin-left: 0rem !important;
+    gap: 2.5rem !important;
+}
+#container{
+    display: flex;
+    justify-content: space-between;
+}
+#AA{
+    font-size: 28px;
+    font-family: kalameh;
+    margin-top: 0.5rem;
+}
+header::before{
+    content: '';
+    width: 804px;
+    height: 814px;
+    background-image: radial-gradient(#3D0D58 38%, #070F1C 0 );
+    position: absolute;
+    filter: blur(74px);
+    -webkit-filter: blur(74px);
+    opacity: 0.4;
+    right: -273px;
+    top: -273px;
+}
+header::after{
+    content: '';
+    background-image: url(../img/Group\ 1.png);
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -2;
+}
+#cn{
+    margin-top: 7rem;
+}
+.title_main{
+    font-size: 3rem;
+    margin-top: 2rem !important;
+}
+#p{
+    margin-top: 1rem !important;
+}
+.sh{
+    color: var(--color_FF3C00); 
+}
+.bg_gradient_main_site{
+    background-image: linear-gradient(to right,#7011AD,#BC0505,#FC630F);
+}
+.main_header_img::before{
+    content: '';
+    background-image: url(../img/Path.png);
+    position: absolute;
+    width: 41px;
+    height: 81px;
+    background-repeat: no-repeat;
+    top: 4rem;
+    left: 23rem;
+}
+.main_header_img::after{
+    content: '';
+    background-image: url(../img/scribble\ final\ version-02.png);
+    position: absolute;
+    width: 72px;
+    height: 57px;
+    background-repeat: no-repeat;
+    top: 23rem;
+    right: 31rem;
+}
+.count_user_site{
+    width: 238px;
+    height: 79px;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.3);
+    top: 24rem;
+    left: 13rem;
+}
+#form{
+    align-items: center;
+    display: flex;
+}
